@@ -159,7 +159,7 @@ public class BaseStep  {
 
                 default:
 
-                    new NotFoundException();
+                    throw  new NotFoundException();
 
             }
 
@@ -351,7 +351,7 @@ public class BaseStep  {
 
                 default:
 
-                    new NotFoundException();
+                    throw  new NotFoundException();
 
             }
 

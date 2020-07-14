@@ -73,13 +73,12 @@
     Ve "Printed Chiffon Dress - Color : Green, Size : S" bilgisi ve islem tarihi teyit edilir
 
 
-    #@hepsi
+    @hepsi
     Senaryo: servis testi
       Ve "http://generator.swagger.io/api/swagger.json" servisi GET metodu ile 200 doner
-  @AfterMethod
-  Senaryo: hata alan bir senaryoda ekran goruntusu alma
-        Diyelim ki "chrome" tarayicisinda "http://automationpractice.com/" sayfasina giris yaptim
-        Ve hata alsinn
+
+
+
 
 
 

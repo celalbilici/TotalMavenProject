@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e001b53-cdbd-4fe2-af24-823e31d3fbb2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Screenshots/test1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/screen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/test1.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/extent.html" beforeDir="false" afterPath="$PROJECT_DIR$/extent.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Otomasyon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/Otomasyon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseStep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/Features/otomasyonSenaryosu.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/otomasyonSenaryosu.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Base/BaseStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Base/BaseStep.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Features/otomasyonSenaryosu.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/otomasyonSenaryosu.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/Hooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Otomasyon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/Otomasyon.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +67,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: hata alan bir senaryoda ekran goruntusu alma">
+  <component name="RunManager" selected="TestNG.Hooks">
     <configuration name="Scenario: hata alan bir senaryoda ekran goruntusu alma" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="3" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/otomasyonSenaryosu.feature" />
@@ -91,7 +87,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: servis testi (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: servis testi" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="3" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/otomasyonSenaryosu.feature" />
       <option name="GLUE" value="Steps" />
@@ -110,15 +106,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: yeni uye olma" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: urun satin alma ve kontrol islemleri" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="3" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/otomasyonSenaryosu.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="TotalMavenProject" />
-      <option name="NAME_FILTER" value="^yeni uye olma$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter --name &quot;^yeni uye olma$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: yeni uye olma" />
+      <option name="NAME_FILTER" value="^urun satin alma ve kontrol islemleri$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter --name &quot;^urun satin alma ve kontrol islemleri$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: urun satin alma ve kontrol islemleri" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -166,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Scenario: hata alan bir senaryoda ekran goruntusu alma" />
-        <item itemvalue="TestNG.Hooks.test1" />
-        <item itemvalue="Cucumber java.Scenario: yeni uye olma" />
         <item itemvalue="TestNG.Hooks" />
-        <item itemvalue="Cucumber java.Scenario: servis testi (1)" />
+        <item itemvalue="TestNG.Hooks.test1" />
+        <item itemvalue="Cucumber java.Scenario: servis testi" />
+        <item itemvalue="Cucumber java.Scenario: urun satin alma ve kontrol islemleri" />
+        <item itemvalue="Cucumber java.Scenario: hata alan bir senaryoda ekran goruntusu alma" />
       </list>
     </recent_temporary>
   </component>
@@ -206,14 +202,22 @@
       <option name="project" value="LOCAL" />
       <updated>1594700237212</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="totalProectMaven hooks içinde ki sınıf çalıştırılarak hata alması sonucu screenshot alma adımı yapıldı">
+      <created>1594705226596</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594705226596</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="totalProectMaven ilk pushlama commit mesaji" />
     <MESSAGE value="totalProectMaven her sayfaya geciste link kontrolu eklendi ve bazen urun secememe bug u fixlendi" />
-    <option name="LAST_COMMIT_MESSAGE" value="totalProectMaven her sayfaya geciste link kontrolu eklendi ve bazen urun secememe bug u fixlendi" />
+    <MESSAGE value="totalProectMaven hooks içinde ki sınıf çalıştırılarak hata alması sonucu screenshot alma adımı yapıldı" />
+    <option name="LAST_COMMIT_MESSAGE" value="totalProectMaven hooks içinde ki sınıf çalıştırılarak hata alması sonucu screenshot alma adımı yapıldı" />
   </component>
   <component name="WindowStateProjectService">
     <state x="240" y="65" key="#Project_Structure" timestamp="1594696021656">
@@ -224,50 +228,66 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="359" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1594671571648" />
-    <state x="264" y="2" key="CommitChangelistDialog2" timestamp="1594700236998">
+    <state x="264" y="2" key="CommitChangelistDialog2" timestamp="1594705226324">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="264" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1594700236998" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1594705091462">
+    <state x="264" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1594705226324" />
+    <state width="1238" height="263" key="GridCell.Tab.0.bottom" timestamp="1594709958326">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1594705091462" />
+    <state width="1238" height="263" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1594709958326" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1594625134898" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.715@0.23.1280.715" timestamp="1594492591694" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.721@0.23.1280.721" timestamp="1594494005328" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1594705091460">
+    <state width="1238" height="263" key="GridCell.Tab.0.center" timestamp="1594709958325">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1594705091460" />
+    <state width="1238" height="263" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1594709958325" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1594625134896" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.715@0.23.1280.715" timestamp="1594492591688" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.721@0.23.1280.721" timestamp="1594494005326" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1594705091459">
+    <state width="1238" height="263" key="GridCell.Tab.0.left" timestamp="1594709958323">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1594705091459" />
+    <state width="1238" height="263" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1594709958323" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1594625134894" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.715@0.23.1280.715" timestamp="1594492591687" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.721@0.23.1280.721" timestamp="1594494005325" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1594705091461">
+    <state width="1238" height="263" key="GridCell.Tab.0.right" timestamp="1594709958325">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1594705091461" />
+    <state width="1238" height="263" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1594709958325" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1594625134897" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.715@0.23.1280.715" timestamp="1594492591689" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.721@0.23.1280.721" timestamp="1594494005327" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1594700239356">
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1594709965741">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1594700239356" />
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1594709965741" />
+    <state width="1238" height="263" key="GridCell.Tab.1.center" timestamp="1594709965739">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1594709965739" />
+    <state width="1238" height="263" key="GridCell.Tab.1.left" timestamp="1594709965736">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1594709965736" />
+    <state width="1238" height="263" key="GridCell.Tab.1.right" timestamp="1594709965740">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1594709965740" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1594705228601">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1594705228601" />
     <state x="317" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1594647006051">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="317" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1594647006051" />
-    <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594705169953">
+    <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594710142163">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1594705169953" />
+    <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1594710142163" />
     <state x="298" y="157" width="683" height="486" key="find.popup" timestamp="1594698576775">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -276,5 +296,21 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="397" y="328" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1280.800@0.0.1280.800" timestamp="1594704792988" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Steps/Hooks.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Steps/Hooks.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
