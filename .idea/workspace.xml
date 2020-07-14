@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e001b53-cdbd-4fe2-af24-823e31d3fbb2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="2e001b53-cdbd-4fe2-af24-823e31d3fbb2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -167,7 +163,19 @@
       <option name="presentableId" value="Default" />
       <updated>1583061222457</updated>
     </task>
+    <task id="LOCAL-00001" summary="totalProectMaven ilk pushlama commit mesaji">
+      <created>1594692986449</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594692986449</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="totalProectMaven ilk pushlama commit mesaji" />
+    <option name="LAST_COMMIT_MESSAGE" value="totalProectMaven ilk pushlama commit mesaji" />
   </component>
   <component name="WindowStateProjectService">
     <state x="359" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594671571648">
