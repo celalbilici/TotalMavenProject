@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e001b53-cdbd-4fe2-af24-823e31d3fbb2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/MANUEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/otomasyonSenaryosu.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/RestService.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/Trendyol.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Otomasyon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/Otomasyon.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,23 +47,27 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="totalmavenproject" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/driver" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/Features" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/driver" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/Features" />
       <recent name="$PROJECT_DIR$/driver" />
       <recent name="$PROJECT_DIR$/src/test" />
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/driver" />
-    </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: servis testi">
-    <configuration name="Scenario: servis testi" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber java.Scenario: servis testi (1)">
+    <configuration name="Scenario: servis testi (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="3" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/otomasyonSenaryosu.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/otomasyonSenaryosu.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="TotalMavenProject" />
@@ -74,15 +84,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: urun satin alma ve kontrol islemleri" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: servis testi" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="3" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/otomasyonSenaryosu.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="TotalMavenProject" />
-      <option name="NAME_FILTER" value="^urun satin alma ve kontrol islemleri$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter --name &quot;^urun satin alma ve kontrol islemleri$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: urun satin alma ve kontrol islemleri" />
+      <option name="NAME_FILTER" value="^servis testi$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter --name &quot;^servis testi$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: servis testi" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -147,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Scenario: servis testi (1)" />
         <item itemvalue="Cucumber java.Scenario: servis testi" />
         <item itemvalue="TestNG.rapor" />
         <item itemvalue="TestNG.ExtendReportsWithTestNg.test1" />
         <item itemvalue="TestNG.ExtendReportsWithTestNg" />
-        <item itemvalue="Cucumber java.Scenario: urun satin alma ve kontrol islemleri" />
       </list>
     </recent_temporary>
   </component>
@@ -188,6 +198,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="totalProectMaven ilk pushlama commit mesaji" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="240" y="65" key="#Project_Structure" timestamp="1594696021656">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="65" key="#Project_Structure/0.0.1280.800@0.0.1280.800" timestamp="1594696021656" />
     <state x="359" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594671571648">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -196,31 +210,31 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="264" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1594693881465" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1594675077286">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1594696304389">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1594675077286" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1594696304389" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1594625134898" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.715@0.23.1280.715" timestamp="1594492591694" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.721@0.23.1280.721" timestamp="1594494005328" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1594675077284">
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1594696304387">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1594675077284" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1594696304387" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1594625134896" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.715@0.23.1280.715" timestamp="1594492591688" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.721@0.23.1280.721" timestamp="1594494005326" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1594675077283">
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1594696304387">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1594675077283" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1594696304387" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1594625134894" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.715@0.23.1280.715" timestamp="1594492591687" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.721@0.23.1280.721" timestamp="1594494005325" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1594675077285">
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1594696304388">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1594675077285" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1594696304388" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1594625134897" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.715@0.23.1280.715" timestamp="1594492591689" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.721@0.23.1280.721" timestamp="1594494005327" />

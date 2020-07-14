@@ -1,0 +1,26 @@
+Manuel Test Ssenaryosu
+
+*Köpek maması seçeneğil ile ilgili https://www.hepsiburada.com/kopek-mamalari-c-560001 linki açılır
+*Alt kategoriler seçildiğinde ürün miktarında daralma olduğu görülür
+*Marka ara inputu  içinde filtreleme özelliğine bakılır,tam isim yazmadan bir iki harf vs girilerek te ilgili markaların geldiği görülür
+ *Girilen ifadeyle alakalı olmayan markaların da filtrelenmediği görülür.
+*Çok satanlar,en yeniler,en düşük fiyat,en yüksek fiyat,en çok yorum alan,en yüksek puan alan gibi seçeneklerle ürün listesinin değiştiği görülür
+Sıralamanın doğru şekilde yapıldığı görülür(Mesela ucuzdan pahalıya gibi vs)
+*Fiyat aralığı input değerlerini girince gelen ürünlerin ilgili fiyatlar arasında olduğuna bakılır
+*Fiyat aralığı checkboxlarının doğru çalıştığı görülür,ilgili checkbox seçilip gelen ürünlerin o aralıkta olmasına dikkat edilir
+*Marka seçimi bölümündeki scrool un çalıştığı görülür
+*Ürün puanı ve fırsat ürünleri checkboxlarını seçip ilgili seçime göre filtrelendiği görülür.
+*Tat ara inputu  içinde filtreleme özelliğine bakılır,tam isim yazmadan bir iki harf vs girilerek te ilgili markaların geldiği görülür
+ *Girilen ifadeyle alakalı olmayan markaların da filtrelenmediği görülür.
+*Ürün kilogram ve mama segmenti checkboxlarının seçiminde filtrelemenin çalıştığı görülür.
+*Gramajve satıcı inputu  içinde filtreleme özelliğine bakılır,tam isim yazmadan bir iki harf vs girilerek te ilgili markaların geldiği görülür
+  *Girilen ifadeyle alakalı olmayan markaların da filtrelenmediği görülür.
+*Sıralama ikonlarının çalıştığı kontrol edilir
+*İstenilen ürünlerden birinin üzerine gelip Sepete ekle butonuna basılır,istenilen sayıda tekrarlanır
+*Sepete gidildiğinde ürünlerin doğru şekilde yer aldığı görülür
+*Ürün sayısı güncellenir,bazısı silinir,ilgili değişimin olduğu görülür
+*Ürüne tıklayınca ürün detay sayfasının açıldığı ,Beğen ve listeme ekle,yorum yap gibi seçenekler tıklanınca üyelik bilgisiyle giriş popupunun açıldığı görülür
+*Karşılaştıra tıklanınca popupta karşılaştıralacak ürünler arasına eklendiği,ve yeni ürün eklenmesi gerektiği görülür
+*Sepetten sil dendiğinde ürün tutarı kadar sepet fiyatının azaldığı 75 tl altına düşünce kargo ücretinin geri geldiği görülür
+*Aynı şekilde ürün sayısı artırıldğında 75 tl yi geçtiğinde kargonun ücretsiz olduğu görülür
+*Satın alma işeminde üyelik bilgisi girildiği sonrasında varsa alışveriş profillerinin seçildiği değilse adres kredi kart bilgileri ile tamamlandığı görülür
