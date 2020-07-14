@@ -377,7 +377,7 @@ public class Otomasyon extends BaseStep {
 
     @Ve("{string} isimli urunu secersem")
     public void isimliUrunuSecersem(String productName) {
-        findElementClick("(//a[normalize-space(@title)='"+productName+"'])[3]",Pather.xPath);
+        findElementClick("//h5[@itemprop='name']//a[@class='product-name'][normalize-space()='"+productName+"']",Pather.xPath);
     }
 
     @Ve("rengini {string} secersem")
@@ -469,6 +469,14 @@ public class Otomasyon extends BaseStep {
     }
 
 
+    @Ve("{string} site adresiyle ayni oldugunu dogrularim")
+    public void siteAdresiyleAyniOldugunuDogrularim(String urlLink) {
+        String url = driver.getCurrentUrl();
+        Assert.assertEquals(url,urlLink);
+        System.out.println(url);
+        System.out.println(urlLink);
+
+    }
 }
 
 
