@@ -1,12 +1,12 @@
 #language:tr
 
 Özellik: Otomasyon senaryosu
-  #@hepsi
+  @hepsi
   Senaryo: yeni uye olma
   Diyelim ki "chrome" tarayicisinda "http://automationpractice.com/" sayfasina giris yaptim
     Ve yeni uyelik icin "Sign in" butonuna tıklarim
     Ve "http://automationpractice.com/index.php?controller=authentication&back=my-account" site adresiyle ayni oldugunu dogrularim
-    Ve mail adresi kismina tiklayip "thenthen7@gmail.com" girerim
+    Ve mail adresi kismina tiklayip "thenthen8@gmail.com" girerim
     Ve "Create an account" butonuna tiklarim
     Ve "http://automationpractice.com/index.php?controller=authentication&back=my-account" site adresiyle ayni oldugunu dogrularim
     Ve uye cinsiyeti olarak "Erkek" secerim
@@ -36,7 +36,7 @@
   @hepsi
   Senaryo: urun satin alma ve kontrol islemleri
     Diyelim ki "chrome" tarayicisinda "http://automationpractice.com/index.php?controller=authentication&back=my-account" sayfasina giris yaptim
-    Ve "email" bolumune "thenthen7@gmail.com" yazarim
+    Ve "email" bolumune "thenthen8@gmail.com" yazarim
     Ve "passwd" bolumune "12345sifrezayıf" yazarim
     Ve "Sign in" butonuna tiklarsam
     Ve 2 saniye beklersem
@@ -73,9 +73,12 @@
     Ve "Printed Chiffon Dress - Color : Green, Size : S" bilgisi ve islem tarihi teyit edilir
 
 
-    #@hepsi
+    @hepsi
     Senaryo: servis testi
       Ve "http://generator.swagger.io/api/swagger.json" servisi GET metodu ile 200 doner
+
+
+
 
 
 

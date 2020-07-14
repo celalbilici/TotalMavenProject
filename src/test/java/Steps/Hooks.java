@@ -5,13 +5,18 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
+import org.testng.ITestResult;
+import org.testng.annotations.*;
+
+import java.io.File;
+import java.io.IOException;
 
 public class Hooks {
     ExtentHtmlReporter htmlReporter=null;
@@ -37,14 +42,14 @@ public class Hooks {
     public void test1() throws Exception {
         ExtentTest test = extent.createTest("MyFirstTest", "Sample description");
         driver.get("https://www.google.com");
+        driver.findElement(By.id("BİLEREK-YANLIŞ-ID-VERİYORUM"));
         String sayfaIsmi=driver.getTitle();
         Assert.assertEquals(sayfaIsmi, "Google");
         test.log(Status.PASS, "pass oldu oleyyyyyy");
         test.pass("google a giris yapildi");
         test.log(Status.INFO, "This step shows usage of log(status, details)");
         test.info("This step shows usage of info(details)");
-        test.info("details", MediaEntityBuilder.createScreenCaptureFromPath("screenshot.png").build());
-        test.addScreenCaptureFromPath("screenshot.png");
+
     }
 
     @AfterTest
@@ -59,6 +64,18 @@ public class Hooks {
         extent.flush();
         driver.quit();
     }
+    @AfterMethod
+    public void FailedTestCaseScreenShot(ITestResult result) throws IOException {
+
+        if(ITestResult.FAILURE==result.getStatus()) {
+
+            TakesScreenshot ts=(TakesScreenshot)driver;
+            File source=ts.getScreenshotAs(OutputType.FILE);
+            FileUtils.copyFile(source, new File("./Screenshots/"+ result.getName() + ".png"));
+
+        }
+    }
+
 
 
 }

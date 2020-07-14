@@ -477,6 +477,12 @@ public class Otomasyon extends BaseStep {
         System.out.println(urlLink);
 
     }
+
+    @Ve("hata alsin")
+    public void hataAlsin() throws Throwable {
+        driver.findElement(By.id("BİLEREK-YANLIŞ-ID-VERİYORUM"));
+
+    }
 }
 
 
